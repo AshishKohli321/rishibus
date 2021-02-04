@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">  
+     <title>Rishikesh bus , Rishikesh bus time table , Rishikesh Time.</title>
+     <meta name="description" content="Best time  to travel  with Rishikesh bus services , Rishikesh bus timing ,  Rishikesh bus time table , Check here to Rishikesh bus time table , Rishikesh.">
+     <meta name="keyword" content="rishikesh bus, rishikesh bus time table, rishikesh bus timing, buses From rishikesh,  rishikesh to delhi bus, rishikesh to chandigarh, rishikesh to tehri, rishikesh to shrinagar, rishikesh to devprayag, rishikesh to dehradun bus.">
+     <link rel="shortcut icon " type="image/png" href="./img/fevicon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css"> 
+</head>
+<body>
+    <section class="header" id="home" >      
+        <nav  class="navbar navbar-expand-lg fixed-top navbar-dark" id="nav">
+          <a class="navbar-brand" href="#">Rishibus.in</a>
+          <button class="navbar-toggler text-primary" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" >
+            <span class="navbar-toggler-icon "></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto" >
+              <li class="nav-item active" >
+                <a class="nav-link"  href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="#village">village</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#City">City</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Private_Transport">Private Transport</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="places-of-rishikesh/places-of-rishikesh.html">Places of Rishikesh</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact us</a>
+              </li>
+            </ul>
+          </div>
+        </nav> 
+
+        <div class="clockContainer">
+          <div id="hour"></div>
+          <div id="minute"></div>
+          <div id="second"></div>
+
+          <h2 class="digitalClock" id="digitalClock"></h2>
+          <p class="currentDate" id="currentDate"> </p>
+        </div>
+    </section>
+    <!-- Search -->
+ <div class="container">
+    <h1 class="text-center m-2 pb-2">Rishikesh Bus | Rishikesh Bus Time Table</h1>
+      <div class="text-center outer_box">
+    Rishikesh to <input type="search" class="search_input" id="input_search" placeholder="Where want you go?"> 
+        <input type="submit" class="search_btn" id="search_btn" onclick={search_btn_fun()} value="Search">
+      </div>
+ </div>
+    <!-- Search -->
+ <div class="container" id="village">
+        <h2 class=" text-center pt-5">List of buses starting From Rishikesh to other Villages in Uttarakhand
+        </h2>
+        <!-- <hr class="w-25 mx-auto"> -->
+        <table class="table table-dark table-responsive-sm " id="myTable1" >
+            <thead>
+              <tr class="">
+                <th scope="col">S.no</th>
+                <th scope="col">Timing</th>
+                <th scope="col">Station</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td scope="row">1.</td>
+                <td>3:15 AM</td>
+                <td>Koti, Ghansali, (Ghuttu), Akhodi</td>
+              </tr>
+              <tr>
+                <td scope="row">2.</td>
+                <td>4:10 AM</td>
+                <td>Koti, Ghansali, (Vinaykhal), Bhatgaanv</td>
+              </tr>
+              <tr>
+                <td scope="row">3.</td>
+                <td>4:00 AM</td>
+                <td>Chamba, Uttarkashi, Lambgaavn, Cherpadhaar</td>
+              </tr>
+              <tr>
+                <td scope="row">4.</td>
+                <td>4:40 AM</td>
+                <td> Bauraadi, Ghansali, Mayali, Tilwara</td>
+              </tr>
+              <tr>
+                <td scope="row">36.<span class="text-danger"> (A)</span></td>
+                <td>5:00 AM</td>
+                <td>Bhainga, Lambgaavn, Kamad</td>
+              </tr>
+              <tr>
+                <td scope="row">5.</td>
+                <td>5:15 AM</td>
+                <td> Bauraadi, Ghansali, Mandaar</td>
+              </tr>
+              <tr>
+                <td scope="row">6.</td>
+                <td>5:30 AM</td>
+                <td> Chamba, Uttarkashi, Gangotri</td>
+              </tr>
+              <tr>
+                <td scope="row">7.</td>
+                <td>5:50 AM</td>
+                <td>  Bauraadi, Ghansali, Akhodi</td>
+              </tr>
+              <tr>
+                <td scope="row">37.<span class="text-danger"> (B)</span></td>
+                <td>6:00 AM</td>
+                <td>Chamba, Bhainga, Lambgaavn,Mukhem</td>
+              </tr>
+              <tr>
+                <td scope="row">SPEED POST DAAK</td>
+                <td>11:00 AM</td>
+                <td> Chamba, Uttarkashi</td>
+              </tr>
+              <tr>
+              <td scope="row">8.</td>
+                <td>6:30 AM</td>
+                <td> Bauraadi, Ghansali, Rajakhet</td>
+              </tr>
+              <tr>
+                <td scope="row">RAIMBAAR SEVA</td>
+                <td>6:45 AM</td>
+                <td> Chamba, Uttarkashi, Gangotri</td>
+              </tr>
+              <tr>
+                <td scope="row">9.</td>
+                <td>7:00 AM</td>
+                <td> Bauraadi, Ghansali, Dangi, Tdarti</td>
+              </tr>
+              <tr>
+                <td scope="row">38.<span class="text-danger"> (C)</span></td>
+                <td>7:15 AM</td>
+                <td>Chamba, Bhainga, Lambgaavn, Bhaintlakhal</td>
+              </tr>
+              <tr>
+                <td scope="row">34.</td>
+                <td>7:30 AM</td>
+                <td> Bauraadi, Tipri, Jakhnidhar, Devprayag</td>
+              </tr>
+              <tr>
+                <td scope="row">35.</td>
+                <td>6:45 AM</td>
+                <td> Bauraadi, Jakhnidhar, Devprayag</td>
+              </tr>
+              <tr>
+                <td scope="row">RAIMBAAR SEVA</td>
+                <td>7:45 AM</td>
+                <td>Bauraadi, Ghansali, Vinaykhal </td>
+              </tr>
+              <tr>
+                <td scope="row">12.</td>
+                <td>8:00 AM</td>
+                <td> Chamba, Uttarkashi</td>
+              </tr>
+              <tr>
+                <td scope="row">39.<span class="text-danger"> (D)</span></td>
+                <td>8:15 AM</td>
+                <td> Bhainga, Lambgaavn, Bhitta</td>
+              </tr>
+              <tr>
+                <td scope="row">11.</td>
+                <td>8:30 AM</td>
+                <td> Bauraadi, Ghansali, Daa, (Dalla)</td>
+              </tr> 
+              <tr>
+                <td scope="row">40.<span class="text-danger"> (E)</span></td>
+                <td>8:45 AM</td>
+                <td> Bauraadi, Madan Negi, Lambgaavn</td>
+              </tr> 
+              <tr>
+                <td scope="row">13.</td>
+                <td>9:00 AM</td>
+                <td> Bauraadi, Ghansali, Bhudkedaar</td>
+              </tr>   
+              <tr>
+                <td scope="row">41.<span class="text-danger"> (F)</span></td>
+                <td>9:15 AM</td>
+                <td>Bhainga , Lambgaavn, Kandiyalgaanv</td>
+              </tr>
+              <tr>
+                <td scope="row">14.</td>
+                <td>9:30 AM</td>
+                <td> Bauraadi, Tipri, Jakhnidhar, Garakot</td>
+              </tr>  
+              <tr>
+                <td scope="row">42.<span class="text-danger"> (G)</span></td>
+                <td>9:45 AM</td>
+                <td>Bauraadi , Lambgaavn, Pratap Nagar</td>
+                </tr> 
+              <tr>
+                <td scope="row">16.</td>
+                <td>10:00 AM</td>
+                <td> Chamba, Uttarkashi</td>
+              </tr>
+              <tr>
+                <td scope="row">43.<span class="text-danger"> (H)</span></td>
+                <td>10:15 AM</td>
+                <td>Rajakhet, Sunharigaad, Kastal</td>
+              </tr> 
+              <tr>
+                <td scope="row">15.</td>
+                <td>10:30 AM</td>
+                <td> Bauraadi, Ghansali, Vinaykhal</td>
+              </tr> 
+              <tr>
+                <td scope="row">UTTARKASHI</td>
+                <td>11:00 AM</td>
+                <td> Chamba, Uttarkashi</td>
+              </tr> 
+              <tr>
+                <td scope="row">46.<span class="text-danger"> (K)</span></td>
+                <td>11:15 AM</td>
+                <td>Chamba, Bhainga, Lambgaavn</td>
+              </tr>
+              <tr>
+                <td scope="row">18.</td>
+                <td>11:30 AM</td>
+                <td> Ghansali, Bhudkedaar</td>
+              </tr> 
+              <tr>
+                <td scope="row">FIXED SEVA</td>
+                <td>11:45 AM</td>
+                <td> Khadi, Ranakot</td>
+              </tr> 
+              <tr>
+                  <td scope="row">19.</td>
+                  <td>12:00 PM</td>
+                  <td> Bauraadi, Gadoliya, ShriNagar</td>
+             </tr>
+              <tr>
+                <td scope="row">FIXED SEVA</td>
+                <td>12:15 PM</td>
+                <td> Khadi, Gaja, Naicholi</td>
+              </tr>
+              <tr>
+                <td scope="row">21.</td>
+                <td>12:30 PM</td>
+                <td> Chamba, Uttarkashi</td>
+            </tr>  
+            <tr>
+              <td scope="row">45.<span class="text-danger"> (J)</span></td>
+              <td>12:00 PM</td>
+              <td>Samsad, Mindaath, Paoki Devi</td>
+            </tr>
+            <tr>
+              <td scope="row">FIXED SEVA</td>
+              <td>12:45 PM</td>
+              <td> Khadi, Berni, Advaani</td>
+            </tr>
+            <tr>
+              <td scope="row">19.</td>
+              <td>12:00 PM</td>
+              <td> Bauraadi, Gadoliya, Shri Nagar</td>
+          </tr>
+          <tr>
+            <td scope="row">FIXED SEVA</td>
+            <td>12:15 PM</td>
+            <td> Khadi, Gaja, Naicholi</td>
+          </tr>
+          <tr>
+            <td scope="row">21.</td>
+            <td>12:30 PM</td>
+            <td> Chamba, Uttarkashi</td>
+         </tr>  
+          <tr>
+            <td scope="row">45.<span class="text-danger"> (J)</span></td>
+            <td>12:00 PM</td>
+            <td>Samsad, Mindaatd, Paoki Devi</td>
+          </tr>
+          <tr>
+            <td scope="row">FIXED SEVA</td>
+            <td>12:45 PM</td>
+            <td> Khadi, Berni, Advaani</td>
+          </tr>
+          <tr>
+            <td scope="row">22.</td>
+            <td>1:00 PM</td>
+            <td>Chamba, Bauraadi, Ghansali</td>
+          </tr>
+          <tr>
+            <td scope="row">FIXED SEVA</td>
+            <td>1:15 PM</td>
+            <td> Khadi, Gaja, Nakot</td>
+          </tr>
+          <tr>
+            <td scope="row">44.<span class="text-danger"> (I)</span></td>
+            <td>1:30 PM</td>
+            <td>Dev Prayag, Shri Nagar</td>
+          </tr>
+          <tr>
+            <td scope="row">29.</td>
+            <td>1:30 PM</td>
+            <td> Chamba, Bauraadi, Daak</td>
+          </tr>
+          <tr>
+            <td scope="row">EKAL MARG SEVA</td>
+            <td>1:30 PM</td>
+            <td> dev Prayag, Shri Nagar</td>
+          </tr>
+          <tr>
+            <td scope="row">20.</td>
+            <td>1:45 PM</td>
+            <td> Chamba, Koti, Bhagiratipuram</td>
+          </tr>
+          <tr>
+            <td scope="row">FIXED SEVA</td>
+            <td>2:00 PM</td>
+            <td> Narendra Nagar, Agrakhal</td>
+          </tr>
+          <tr>
+            <td scope="row">30.</td>
+            <td>2:20 PM</td>
+            <td> Chamba, Bauraadi</td>
+          </tr>
+          <tr>
+            <td scope="row">FIXED SEVA</td>
+            <td>2:30 PM</td>
+            <td> Khadi, Bhainsaari</td>
+          </tr>
+          <tr>
+            <td scope="row">31.</td>
+            <td>3:00 PM</td>
+            <td> Chamba, Bauraadi</td>
+          </tr>
+          <tr>
+            <td scope="row">FIXED SEVA</td>
+            <td>3:15 PM</td>
+            <td> Khadi, Kakhur</td>
+          </tr>
+          <tr>
+            <td scope="row">32.</td>
+            <td>3:30 PM</td>
+            <td> Chamba, Bauraadi</td>
+          </tr>
+          <tr>
+            <td scope="row">RAIMBAAR SEVA</td>
+            <td>4:00 PM</td>
+            <td> Chamba, Bauraadi</td>
+          </tr>
+          <tr>
+            <td scope="row">25.</td>
+            <td>4:30 PM</td>
+            <td> Chamba, Bauraadi</td>
+          </tr>
+          <tr>
+            <td scope="row">26.</td>
+            <td>5:00 PM</td>
+            <td> Chamba, Bauraadi</td>
+          </tr>
+          <tr>
+            <td scope="row">RAIMBAAR SEVA</td>
+            <td>10:00 AM</td>
+            <td> Shri Nagar</td>
+          </tr>
+          <tr>
+            <td scope="row">27.</td>
+            <td>10:15 AM</td>
+            <td> Podikhal</td>
+          </tr>
+          <tr>
+            <td scope="row">28.</td>
+            <td>11:45 AM</td>
+            <td> Khandogi</td>
+          </tr> 
+        </tbody>
+      </table>
+
+        <table class="table table-dark table-responsive-sm " id="myTable2">
+            <thead>
+              <tr class="">
+                <th scope="col">From</th>
+                <th scope="col">To</th>
+                <th scope="col">Station</th>
+                <th scope="col">Timing</th>
+              </tr>
+            </thead>
+            <tr>
+              <th scope="row">Rishikesh</th>
+              <td> To</td>
+              <td> Gopeshwar</td>
+              <td> 4:00, 7:30 AM</td>
+            </tr> 
+            <tr>
+              <th scope="row">Rishikesh</th>
+              <td> To</td>
+              <td> Guptkashi</td>
+              <td> 4:10 AM</td>
+            </tr> 
+            <tr>
+              <th scope="row">Rishikesh</th>
+              <td> To</td>
+              <td> Karnaprayag</td>
+              <td> 4:15 AM</td>
+            </tr> 
+            <tr>
+              <th scope="row">Rishikesh</th>
+              <td> To</td>
+              <td>Uttarkashi</td>
+              <td> 4:20, 8:05 AM</td>
+            </tr> 
+            <tr>
+              <th scope="row">Rishikesh</th>
+              <td> To</td>
+              <td>Ghansali</td>
+              <td> 4:00 AM</td>
+            </tr> 
+            <tr>
+              <th scope="row">Rishikesh</th>
+              <td> To</td>
+              <td>Shrinagar </td>
+              <td> 4:25, 4:30 AM ,6:00 PM</td>
+            </tr> 
+            <tr>
+              <th scope="row">Rishikesh</th>
+              <td> To</td>
+              <td>Tehri Bpuram</td>
+              <td> 4:10 AM</td>
+            </tr> 
+            <tr>
+              <th scope="row">Rishikesh</th>
+              <td> To</td>
+              <td>Tehri</td>
+              <td> 4:15 AM</td>
+            </tr> 
+            <tr>
+              <th scope="row">Rishikesh</th>
+              <td> To</td>
+              <td>Badrinath</td>
+              <td> 6:30 AM</td>
+            </tr> 
+            <tr>
+              <th scope="row">Rishikesh</th>
+              <td> To</td>
+              <td>Gangotri</td>
+              <td> 7:00 AM</td>
+            </tr> 
+            <tr>
+              <th scope="row">Rishikesh</th>
+              <td> To</td>
+              <td>Bhatwadi</td>
+              <td> 8:05, 8:30, 10:30 AM</td>
+            </tr> 
+            <tr>
+              <th scope="row">Rishikesh</th>
+              <td> To</td>
+              <td>Bogeshwar</td>
+              <td> 6:00 AM</td>
+            </tr> 
+            <tr>
+              <th scope="row">Rishikesh</th>
+              <td> To</td>
+              <td>Joshimat</td>
+              <td> 6:10 AM</td>
+            </tr> 
+            <tr>
+              <th scope="row">Rishikesh</th>
+              <td> To</td>
+              <td>Barokhal</td>
+              <td> 6:35 AM</td>
+            </tr> 
+            <tr>
+              <th scope="row">Rishikesh</th>
+              <td> To</td>
+              <td>Dwarahat</td>
+              <td> 7:05 AM</td>
+            </tr> 
+            <tr>
+              <th scope="row">Rishikesh</th>
+              <td> To</td>
+              <td>Tilwara</td>
+              <td> 8:05 AM</td>
+            </tr> 
+            <tr>
+              <th scope="row">Rishikesh</th>
+              <td> To</td>
+              <td>Pauri</td>
+              <td> 7:30 AM</td>
+            </tr> 
+            <tr>
+              <th scope="row">Rishikesh</th>
+              <td> To</td>
+              <td>Tripalsain</td>
+              <td> 9:00 AM</td>
+            </tr>
+            <tr>
+              <th scope="row">Rishikesh</th>
+              <td> To</td>
+              <td>Nainital</td>
+              <td> 9:00 AM</td>
+            </tr>
+            <tr>
+              <th scope="row">Rishikesh</th>
+              <td> To</td>
+              <td>Lohakhat</td>
+              <td> 5:00 PM</td>
+            </tr>
+          </tbody>
+      </table>
+</div>
+
+<div class="container" id="City">
+  <h2 class=" text-center pt-5">Buses From Rishikesh to cities in other States</h2>
+    <table class="table table-dark table-responsive-sm " id="myTable3">
+      <thead>
+        <tr class="">
+          <th scope="col">From</th>
+          <th scope="col">To</th>
+          <th scope="col">Station</th>
+          <th scope="col">Timing</th>
+        </tr>
+      </thead>
+      <tr>
+        <th scope="row">Rishikesh</th>
+        <td> To</td>
+        <td> Delhi</td>
+        <td> 5:30, 6:30, 7:30, 8:30, 9:30, 10:30, AM</td>
+      </tr> 
+      <tr>
+        <th scope="row">Rishikesh</th>
+        <td> To</td>
+        <td> Delhi</td>
+        <td> 1:30, 3:00, 3:15, 3:35, 3:55 PM</td>
+      </tr> 
+      
+      <tr>
+        <th scope="row">Rishikesh</th>
+        <td> To</td>
+        <td> Delhi</td>
+        <td> 4:00, 4:30, 5:00, 8:00 PM</td>
+      </tr> 
+      <tr>
+        <th scope="row">Rishikesh</th>
+        <td> To</td>
+        <td> Delhi Volvo</td>
+        <td> 10:00 AM</td>
+      </tr> 
+      <tr>
+        <th scope="row">Rishikesh</th>
+        <td> To</td>
+        <td> Delhi Delux</td>
+        <td> 10:00 AM, 1:00, 8:30, 10:30 PM</td>
+      </tr> 
+      <tr>
+        <th scope="row">Rishikesh</th>
+        <td> To</td>
+        <td>Delhi A/C Bus</td>
+        <td> 11:00 AM, 10:30 PM</td>
+      </tr> 
+      <tr>
+        <th scope="row">Gopeshwar</th>
+        <td> To</td>
+        <td>Delhi</td>
+        <td> 11:15 AM</td>
+      </tr> 
+      <tr>
+        <th scope="row">Guptkashi</th>
+        <td> To</td>
+        <td>Delhi </td>
+        <td> 11:30 AM</td>
+      </tr> 
+      <tr>
+        <th scope="row">Karanprayag</th>
+        <td> To</td>
+        <td>Delhi</td>
+        <td> 11:45 AM</td>
+      </tr> 
+      <tr>
+        <th scope="row">Uttarkashi</th>
+        <td> To</td>
+        <td>Delhi</td>
+        <td> 12:00 PM</td>
+      </tr> 
+      <tr>
+        <th scope="row">Srinagar</th>
+        <td> To</td>
+        <td>Delhi</td>
+        <td> 12:15 PM</td>
+      </tr> 
+      <tr>
+        <th scope="row">Ghansali</th>
+        <td> To</td>
+        <td>Delhi</td>
+        <td> 12:30 PM</td>
+      </tr> 
+      <tr>
+        <th scope="row">Tehri</th>
+        <td> To</td>
+        <td>Delhi</td>
+        <td> 11:15 PM</td>
+      </tr> 
+      <tr>
+        <th scope="row">Rishikesh</th>
+        <td> To</td>
+        <td>Kanpur Bus</td>
+        <td> 12:30 PM</td>
+      </tr> 
+      <tr>
+        <th scope="row">Rishikesh</th>
+        <td> To</td>
+        <td>Ropariya Bus</td>
+        <td> 1:00 PM</td>
+      </tr> 
+      <tr>
+        <th scope="row">Rishikesh</th>
+        <td> To</td>
+        <td>Nainital Bus</td>
+        <td> 9:00 AM</td>
+      </tr> 
+      <tr>
+        <th scope="row">Rishikesh</th>
+        <td> To</td>
+        <td>Tanakpur Bus</td>
+        <td> 3:00 PM</td>
+      </tr> 
+      <tr>
+        <th scope="row">Rishikesh</th>
+        <td> To</td>
+        <td>Ponta Sahib</td>
+        <td> 9:00 AM</td>
+      </tr> 
+      <tr>
+        <th scope="row">Tehri</th>
+        <td> To</td>
+        <td>Chandigarh</td>
+        <td> 12:00 AM</td>
+      </tr> 
+      <tr>
+        <th scope="row">SriNagar</th>
+        <td> To</td>
+        <td> Chandigarh</td>
+        <td> 1:00 PM</td>
+      </tr>
+      <tr>
+        <th scope="row">Rishikesh</th>
+        <td> To</td>
+        <td>Faridabad</td>
+        <td> 10:45 AM</td>
+      </tr>
+      <tr>
+        <th scope="row">Rishikesh</th>
+        <td> To</td>
+        <td>Saharanpur</td>
+        <td> 8:30, 9:00 AM</td>
+      </tr>
+      <tr>
+        <th scope="row">Rishikesh</th>
+        <td> To</td>
+        <td>Amritsar</td>
+        <td> 11:00 AM</td>
+      </tr>
+      <tr>
+        <th scope="row">Rishikesh</th>
+        <td> To</td>
+        <td>Dehradun</td>
+        <td> 5:00 AM T0 7:30 PM Every 15 Minutes</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="container">
+  <table class="table table-dark table-responsive-sm ">
+    <thead>
+      <tr class="">
+        <th scope="col">Type</th>
+        <th scope="col">Fare</th>
+        <th scope="col">Timing</th>
+      </tr>
+    </thead>
+    <tr>
+      <th scope="row">Volvo</th>
+      <td>650</td>
+      <td> 10:00 AM 12:00,10:00PM</td>
+    </tr>
+    <tr>
+      <th scope="row">A/C</th>
+      <td>417</td>
+      <td> 11:00 AM 10:30PM</td>
+    </tr>
+    <tr>
+      <th scope="row">Hightech</th>
+      <td>369</td>
+      <td> 10:00 AM 1:00 9:00 10:00 PM</td>
+    </tr>
+  </table>
+
+    <h2 class=" text-center pt-5" id="Private_Transport">Listed below are buses operated by other service provides like UP State Transport, Haryana Roadways or private transporters.
+    </h2>
+    <table class="table table-dark table-responsive-sm " id="myTable4">
+      <thead>
+        <tr class="">
+          <th scope="col">From</th>
+          <th scope="col">To</th>
+          <th scope="col">Station</th>
+          <th scope="col">Timing</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr>
+            <th scope="row">Rishikesh</th>
+            <td> To</td>
+            <td> Delhi</td>
+            <td> 5:35 5:40 5:45 6:40 AM 7:00 7:05, 7:10 PM</td>
+          </tr> 
+          <tr>
+            <th scope="row">Rishikesh</th>
+            <td> To</td>
+            <td> Delhi</td>
+            <td> 6:00  6:50 AM 4:05 4:10 7:40 PM</td>
+          </tr> 
+          
+          <tr>
+            <th scope="row">Rishikesh</th>
+            <td> To</td>
+            <td> Delhi</td>
+            <td> 4:30 7:40 AM 5:25 7:30 9:00 PM</td>
+          </tr> 
+          <tr>
+            <th scope="row">Rishikesh</th>
+            <td> To</td>
+            <td> Delhi</td>
+            <td> 4:40 7:50 AM 5:00 5:10 11:00 PM</td>
+          </tr> 
+          <tr>
+            <th scope="row">Rishikesh</th>
+            <td> To</td>
+            <td> Delhi</td>
+            <td> 4:50 AM 8:05 8:25 11:10 PM</td>
+          </tr> 
+          <tr>
+            <th scope="row">Rishikesh</th>
+            <td> To</td>
+            <td>Delhi</td>
+            <td> 5:50 5:55 AM 5:15 6:35 6:40 6:45 PM</td>
+          </tr> 
+          <tr>
+            <th scope="row">Rishikesh</th>
+            <td> To</td>
+            <td>Delhi</td>
+            <td> 6:05 6:10 AM 5:20 5:30 5:45 6:50 6:55 PM</td>
+          </tr> 
+          <tr>
+            <th scope="row">Rishikesh</th>
+            <td> To</td>
+            <td>Delhi </td>
+            <td> 4:10 4:20 AM 6:00 6:10 6:20 PM</td>
+          </tr> 
+          <tr>
+            <th scope="row">Rishikesh</th>
+            <td> To</td>
+            <td>Saharanpur</td>
+            <td> 10:00 10:20 10:50 AM 2:00 2:20 PM</td>
+          </tr> 
+          <tr>
+            <th scope="row">Rishikesh</th>
+            <td> To</td>
+            <td>Saharanpur</td>
+            <td> 7:00 9:50 10:10 10:30 AM 2:10, 2:30 PM</td>
+          </tr> 
+          <tr>
+            <th scope="row">Rishikesh</th>
+            <td> To</td>
+            <td>Muradabad</td>
+            <td> 10:30 AM</td>
+          </tr> 
+          <tr>
+            <th scope="row">Rishikesh</th>
+            <td> To</td>
+            <td>Agra</td>
+            <td> 5:00 5:10 5:20 PM</td>
+          </tr> 
+          <tr>
+            <th scope="row">Rishikesh</th>
+            <td> To</td>
+            <td>Muzzafar Nagar</td>
+            <td>11:00 11:15 11:30 AM 12:00 2:30 PM</td>
+          </tr> 
+            <th scope="row">Rishikesh</th>
+            <td> To</td>
+            <td>Chandigarh</td>
+            <td>04:40 AM 8:30 9:30 AM</td>
+          </tr> 
+          <tr>
+            <th scope="row">Rishikesh</th>
+            <td> To</td>
+            <td>Sirsa</td>
+            <td> 6:30 AM</td>
+          </tr> 
+          <tr>
+            <th scope="row">Rishikesh</th>
+            <td> To</td>
+            <td>Kurukshetra</td>
+            <td> 5:00 AM</td>
+          </tr> 
+          <tr>
+            <th scope="row">Rishikesh</th>
+            <td> To</td>
+            <td>Faridabad</td>
+            <td> 6:15 AM</td>
+          </tr> 
+          <tr>
+            <th scope="row">Rishikesh</th>
+            <td> To</td>
+            <td>Gurgaon</td>
+            <td> 6:30 AM</td>
+          </tr> 
+          <tr>
+            <th scope="row">Rishikesh</th>
+            <td> To</td>
+            <td>Sangrur</td>
+            <td> 7:15 AM</td>
+          </tr> 
+          <tr>
+            <th scope="row">Rishikesh
+            <td> To</td>
+            <td> Ropar</td>
+            <td> 7:00 AM</td>
+          </tr>
+          <tr>
+            <th scope="row">Rishikesh</th>
+            <td> To</td>
+            <td>Patiala</td>
+            <td> 7:30 AM</td>
+          </tr>
+        </body>
+    </table>
+</div>
+
+<!-- Comment Section -->
+  <h2 class=" text-center pt-5" id="contact">Leave Comment </h2>
+<div class="container">
+  <div class="commentContainer">
+    <input type="text" name="uname" placeholder="Enter your name">
+    <input type="email" name="email" placeholder="Enter your Email">
+    <textarea class="commentBox" name="commentBox" style="resize: none;" placeholder="Leave Comment"></textarea>
+  </div>
+</div>
+<!-- Comment Section -->
+<footer>
+    <h2 class=" text-center pt-5" id="contact">Contact us  </h2>
+      <div class="footer">
+        <p> You have any inquiries, you can contact the following helpline numbers.</p>
+      <p>Rishikesh – 0135-2430066, 2430008, 2430209, 1800-180-4145<p>
+      Haridwar – 01334-227037 
+       Dehradun – 0135-3093367/68/69, 2623435
+      </div>
+      
+</footer>
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script> 
+    <script src="js/javascript.js"></script> 
+</body>
+</html>

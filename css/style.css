@@ -1,0 +1,202 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+h2{font-size: 30px}
+.header{
+    height:75vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../img/bus1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: animate 10s infinite linear;
+    transition: .6s;
+    position: relative;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+@keyframes animate{
+    0%{
+         background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../img/bus2.jpg);
+    }
+    35%{
+          background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../img/bus3.jpg);
+    }
+    70%{
+          background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../img/bus4.png);
+    }
+}
+.clockContainer{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+}
+.digitalClock{
+    font-size: 25px;
+    text-align: center;
+}
+.currentDate{
+
+}
+
+/*#hour,#minute,#second{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#hour{
+    width: 1.5%;
+    height: 33%;
+    top: 16%;
+    left: 49%;
+}
+#minute{
+    width: 1.5%;
+    height: 35%;
+    top: 15%;
+    left: 49%;
+}
+#second{
+    width: 1.5%;
+    height: 37%;
+    top: 14%;
+    left: 49%;
+}*/
+
+.navbar-brand{
+    color: rgb(253, 244, 244);
+    font-size: 35px;
+}
+
+.nav-item{
+    margin: 3px;
+    color:#5e6b88 !important ;
+ 
+}
+.nav-link{
+    color: #fff !important;
+}
+.nav-link:hover{
+    transition: .2s;
+}
+
+
+
+.input-group{
+    width: 90%;
+    max-width: 500px;
+    border-radius: 30px;
+    margin: auto;
+    background: rgb(241, 235, 235);
+    outline: none;
+}
+.form-control{
+    border-radius: 30px !important;
+    border: 0 !important;
+    margin: 2px !important;
+    box-shadow: none !important;
+    outline: none;
+}
+.input-group-text{
+    width: 100px;
+    background-image: linear-gradient(#1d3975,#369bfa);
+    border: 0 !important;
+    color: #fff !important;
+    border-radius: 30px !important;
+    margin-top: 5px !important;
+    margin: 2px;
+    padding: 6px;
+    box-shadow: none !important;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+::placeholder{
+    font-size: 15px;
+}
+
+.nav-link:hover{
+    color:#1a0a0a !important ;
+    transition: .5s;
+}
+.outer_box{
+    background: #27478a;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #fff;
+}
+.search_input{
+    width: 300px;
+    outline: none;
+    border: none;
+    padding: 8px;
+    border-radius: 20px;
+}
+.search_btn{
+    width: 100px;
+    border: none;
+    outline: none;
+     padding: 8px;
+    border-radius: 20px;
+}
+
+/*Comment box*/
+.commentContainer{
+    display: block;
+    width: 80vw;
+    height: 50vh;
+    background: red;
+    margin: auto;
+    
+
+}
+
+/*comment box*/
+.footer{
+    background: #27478a;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+@media (max-width:768px){
+    h2{font-size: 25px}
+    .search_input{
+        width: 215px;
+    }
+    .search_btn{
+      width: 85px;
+    }  
+}
+@media (max-width:445px){
+    h2{font-size: 22px}
+    .search_input{
+        width: 180px;
+    }
+    .search_btn{
+      width: 70px;
+    }
+}
+@media (max-width:400px){
+    h2{font-size: 20px}
+    .search_input{
+        width: 160px;
+    }
+    .search_btn{
+      width: 60px;
+    }
+}
